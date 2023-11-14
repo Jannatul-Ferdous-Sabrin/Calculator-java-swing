@@ -17,7 +17,7 @@ public class Frame extends JFrame implements ActionListener{
         {
             
                 //FrameSize
-		setSize(380,500);
+		setSize(340,500);
                 setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 setLocationRelativeTo(null);
                 setLayout(null);
@@ -25,13 +25,13 @@ public class Frame extends JFrame implements ActionListener{
                 
                 //Adding panel for TextField
                 panel1 = new JPanel();
-                panel1.setBounds(0, 0, 400,100);
+                panel1.setBounds(0, 0, 300,100);
                 panel1.setBackground(Color.BLACK);
                 panel1.setLayout(null);
                 add(panel1);
                 
                 text = new JTextField();
-                text.setBounds(15, 10, 335, 50);
+                text.setBounds(15, 10, 335, 70);
                 text.setBackground(Color.WHITE);
                 panel1.add(text);
                 
@@ -57,6 +57,7 @@ public class Frame extends JFrame implements ActionListener{
                 btnsqrt = new JButton("\u221A");btnsqrt.addActionListener(this);
                 btnsq = new JButton("\u00B2");btnsq.addActionListener(this);
                 btner = new JButton("<-");btner.addActionListener(this);
+         
                 
                 
                 //setting position of buttons in the frame
