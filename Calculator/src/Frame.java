@@ -118,7 +118,7 @@ public class Frame extends JFrame implements ActionListener{
                 }
                 if(e.getSource()==btn2)
                 {
-                text.setText(text.getText()+"2");
+                text.setText(text.getText()+"2"); 
                 }
                 if(e.getSource()==btn3)
                 {
